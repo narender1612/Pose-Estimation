@@ -1,0 +1,34 @@
+.webcam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.webcam-stream-container {
+  width: 100%;
+  max-width: 900px; 
+  margin-bottom: 20px;
+  border-radius: 8px; 
+  overflow: hidden; 
+}
+
+.webcam-stream {
+  width: 100%;
+  height: 100%;
+}
+
+.pose-estimation-feed-container {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  overflow: hidden;
+}
+
+.pose-estimation-feed img {
+  width: 100%;
+  height: auto;
+  display: block; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
